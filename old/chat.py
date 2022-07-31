@@ -45,6 +45,7 @@ class Server:
             cThread.start()
 
             # do I need to explainn this!, Seriously!!
+            # me :- I wish I would have written proper comments... LOL! Not able to understand.....
             self.connections.append(c)
             print(str(a[0])+ '+' + str(a[1]) + "connected")
 
